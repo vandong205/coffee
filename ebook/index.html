@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+        }
+        label {
+            font-weight: bold;
+        }
+        .editor {
+            width: 100%;
+            height: 100px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .checkbox-group {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <label for="notes">Notes</label><br>
+    <div class="editor" contenteditable="true">
+        Anne has a BA degree in English from St. Lawrence College.<br>
+        She is fluent in French and German.ZZZ
+    </div>
+
+    <div class="checkbox-group">
+        <label>Preferred Shift</label><br>
+        <input type="checkbox" id="regular"> Regular<br>
+        <input type="checkbox" id="graveyard" checked> Gravy Yard
+    </div>
+
+    <div class="checkbox-group">
+        <label>Active?</label>
+        <input type="checkbox" id="active" checked>
+    </div>
+</div>
+
+</body>
+</html>
